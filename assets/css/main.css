@@ -286,6 +286,14 @@ h6 {
     box-shadow: 0px 0px 30px color-mix(in srgb, var(--default-color), transparent 90%);
   }
 
+  .navmenu .page-button {
+    font-size: 17px;
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 21%;
+    text-align: center;
+  }
+
   .navmenu a,
   .navmenu a:focus {
     color: var(--nav-dropdown-color);
@@ -910,14 +918,16 @@ section,
 .about .content .about-btn {
   padding: 8px 30px 9px 30px;
   color: var(--default-color);
-  border-radius: 50px;
+  /* border-radius: 50px; */
   transition: 0.3s;
-  text-transform: uppercase;
-  font-weight: 600;
-  font-size: 13px;
+  /* text-transform: uppercase; */
+  /* font-weight: 600; */
+  font-size: 15px;
   display: inline-flex;
   align-items: center;
   border: 2px solid var(--accent-color);
+  background: var(--accent-color);
+
 }
 
 .about .content .about-btn i {
@@ -956,8 +966,12 @@ section,
 .about .icon-box:hover h4 a {
   color: var(--accent-color);
 }
-
-/*--------------------------------------------------------------
+@media (max-width: 768px) {
+  .icon-box {
+    text-align: center;
+  }
+}
+/*-------------------------------------------------------------- 
 # Stats Section
 --------------------------------------------------------------*/
 .stats i {
@@ -2800,7 +2814,7 @@ section,
   gap: 50px;
 }
 #card-info .card {
-  background-color: #007bff;
+  background: #212529;
   color: white;
   padding: 20px;
   border-radius: 8px;
@@ -2868,7 +2882,7 @@ section,
   }
   #card-info .card {
       max-width: 100%;
-      margin-bottom: 20px;
+      margin-bottom: 10px;
   }
 }
 
@@ -2898,4 +2912,49 @@ section,
       width: 100% !important;
       flex: 0 0 auto;
   }
+}
+
+@media (max-width: 768px) {
+  /* .footer-contact {
+      text-align: center;
+  }
+
+  .footer-about {
+      text-align: center;
+  } */
+
+  /* .footer-logo {
+      margin: 0 auto;
+  } */
+
+  /* .social-links {
+      justify-content: center;
+  } */
+}
+.info-item {
+  text-align: center;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.contact-form {
+  padding: 30px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.contact-form .form-control {
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.contact-form .btn-submit {
+  background-color: #4a63ef;
+  color: #fff;
+  /* border-radius: 25px; */
+  padding: 10px 30px;
+  border: none;
+}
+.contact-form .btn-submit:hover {
+  background-color: #3949ab;
 }

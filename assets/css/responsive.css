@@ -58,3 +58,39 @@
     }
   }
    */
+/* 
+@media (max-width: 768px) {
+    .footer-contact {
+        text-align: center;
+    }
+
+    .footer-about {
+        text-align: center;
+    }
+
+    .footer-logo {
+        margin: 0 auto;
+    }
+
+    .social-links {
+        justify-content: center;
+    } */
+    /* .navmenu a .page-button {
+        padding: 12px 0px;
+        font-size: 13px;
+        margin-left: 20px;
+        margin-top: 10px;
+        width: 30%;
+      }
+} */
+
+/* Responsif untuk iPad Mini dan iPad Air */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .navmenu .page-button {
+      font-size: 17px;
+      margin-left: 20px;
+      margin-top: 10px;
+      width: 11%;
+      text-align: center;
+    }
+  }
