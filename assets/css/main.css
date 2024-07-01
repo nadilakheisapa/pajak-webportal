@@ -2613,24 +2613,24 @@ section,
 /*--------------------------------------------------------------
 # Alt Features Section
 --------------------------------------------------------------*/
-.alt-features .icon-box {
+.alt-features .icon-box-i {
   display: flex;
 }
 
-.alt-features .icon-box h4 {
+.alt-features .icon-box-i h4 {
   font-size: 20px;
   font-weight: 700;
   margin: 0 0 10px 0;
 }
 
-.alt-features .icon-box i {
+.alt-features .icon-box-i i {
   font-size: 44px;
   line-height: 44px;
   color: var(--accent-color);
   margin-right: 15px;
 }
 
-.alt-features .icon-box p {
+.alt-features .icon-box-i p {
   font-size: 15px;
   color: color-mix(in srgb, var(--default-color), transparent 30%);
   margin-bottom: 0;
